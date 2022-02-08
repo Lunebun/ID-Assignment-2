@@ -16,3 +16,5 @@ Technologies used:
 2. Javascript
 3. CSS
 4. HTML
+
+Week 1
