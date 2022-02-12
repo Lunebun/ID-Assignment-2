@@ -18,3 +18,6 @@ Technologies used:
 4. HTML
 
 Week 1
+
+APIs used:
+
