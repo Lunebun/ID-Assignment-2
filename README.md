@@ -21,3 +21,4 @@ Week 1
 
 APIs used:
 
+Open Trivia API
