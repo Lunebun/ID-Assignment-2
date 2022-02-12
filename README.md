@@ -3,7 +3,7 @@
 Project Name: School Odyssey
 
 Features:
-School odyssey is a quiz based application with game features used to test the student's knowledge about the school's open house tour!
+School odyssey is a quiz based application with game features used in a school's open house for various booths to test the student's knowledge on a particular subject!
 
 1. Introduction of quizes and triva.
 
