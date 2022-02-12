@@ -3,13 +3,11 @@
 Project Name: School Odyssey
 
 Features:
-School odyssey is a project aimed to create an interactive webpage for to-be students of a new school to be able to aquire information about the school while making the process enjoyable.
+School odyssey is a quiz based application with game features used to test the student's knowledge about the school's open house tour!
 
 1. Introduction of quizes and triva.
 
-2. Potential design of simple click-based games.
-
-3. Include problem solving such as math questions or logical questions during the process.
+2. Gamification rewards
 
 Technologies used:
 1. Visual Studio Code
