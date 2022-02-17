@@ -1,0 +1,50 @@
+function addpoints() {
+    let scorename = $("#reward-name").val(); //change the reward-name to name input
+    let scorepoints = $("#reward-points").val(); //change the reward points to the points scored
+    let settings = {
+      "async": true,
+      "crossDomain": true,  
+      "url": "https://pointsystem-b8ef.restdb.io/rest/name?q={}&filter=" + scorename,
+      "method": "GET", 
+      "headers": {
+        "content-type": "application/json",
+        "x-apikey": "62091b6a34fd621565858478",
+        "cache-control": "no-cache"
+      },
+    }
+
+    $.ajax(settings).done(function (response) {
+      console.log(response);
+      console.log(response[0].points);
+      userid = response[0]._id
+      console.log(userid);
+      usertotalpoints = response[0].points
+      console.log(scorepoints);
+      userendpoints = usertotalpoints + scorepoints
+      let jsondata = {
+        "name": scorename,
+        "points": userendpoints,
+      };
+  
+      var settings3 = {
+        "async": true,
+        "crossDomain": true,
+        "url": `https://pointsystem-b8ef.restdb.io/rest/name/${userid}`,
+        "method": "PUT",
+        "headers": {
+          "content-type": "application/json",
+          "x-apikey": "62091b6a34fd621565858478",
+          "cache-control": "no-cache"
+        },
+        "processData": false,
+        "data": JSON.stringify(jsondata)
+      }
+      
+      $.ajax(settings3).done(function (response) {
+        console.log(response);
+        alert(scorepoints + " Points added to balance!")
+      });
+
+    });
+
+  }
