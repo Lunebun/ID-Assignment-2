@@ -64,4 +64,16 @@ HTML is the bread and butter of web programming so it is definitely used here.
 
 
 https://lottiefiles.com/
-We've incoporated some lottie animations for the loading screens to at least entertain the users during loading.
+We've incoporated some lottie animations for the loading screens to at least entertain the users during loading.\
+
+
+#Testing
+
+We've done quite a number of unique testings to make sure our quiz app completely works. 
+
+1. Quiz Application
+- Start the quiz 
+- Answer the questions, keep track of correct/wrong answer
+- See if the final score matches the number of correct/wrong answer
+- See if the loading bar moves along with the number of questions answered
+- If the answer is correct, the highlighted answer should be green. If wrong, the highlight should be red.
