@@ -1,0 +1,70 @@
+.tableinfo {
+  background-color: #ecf5ff;
+  text-align: center;
+  text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 10%;
+  border: 1px solid rgb(0, 0, 0);
+}
+.container {
+  content: center;
+}
+th, td{
+  text-align: center;
+  padding: 8px;
+}
+tbody {
+  text-align: center;
+  padding: 8px;
+  flex-direction: column;
+}
+
+.testbtn {
+
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  text-align: center;
+  border: 0.1rem solid #56a5eb;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #56a5eb;
+  background-color: white;
+  
+  display: inline-block;
+
+  width: 150px
+
+}
+
+.testbtn:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #56a5eb;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+  
+}
+
+.testbtn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+.loadingthetext {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+    
