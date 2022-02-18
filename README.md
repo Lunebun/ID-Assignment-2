@@ -1,13 +1,11 @@
 # ID-Assignment-2
 
-Project Name: School Odyssey
+Project Name: Odyssey
 
-Features:
-School odyssey is a quiz based application with game features used in a school's open house for various booths to test the student's knowledge on a particular subject!
+Hello. Odyssey is a quiz based web application with gamification designs and a rewards based system based on the score the user scored on the quiz. This quiz web application is generally designed to be used in booth games for general knowledge, for instance a game station at a school open house or to test the general knowledge of someone. It is meant to be played in multiple rounds in which the more the user scores the better the prizes he/she can redeem. 
 
-1. Introduction of quizes and triva.
+Design Process
 
-2. Gamification rewards
 
 Technologies used:
 1. Visual Studio Code
