@@ -60,7 +60,8 @@ CSS works hand in hand with HTML to make the design more user-friendly and diges
 https://developer.mozilla.org/en-US/docs/Web/HTML
 HTML is the bread and butter of web programming so it is definitely used here.
 
-
 - 5. Lottie
+
+
 https://lottiefiles.com/
 We've incoporated some lottie animations for the loading screens to at least entertain the users during loading.
