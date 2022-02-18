@@ -1,0 +1,72 @@
+
+    .thank-you{
+      font-size: 16px;
+      padding: 20px;	
+    }
+    #name-form{
+      padding: 10px;
+    }
+    #name-form input,  #name-form select{
+      width: 300px;
+    }
+    label{
+      display: block;
+    }
+    .form-control{
+      width: auto;
+    }
+    .help-block{
+      margin-left:10px;
+    }
+    .progress{
+      width: 300px;
+      height:10px;
+      border-radius:0px;
+      margin-top: 2px;
+    }
+    #btn-submit{
+        width: 300px;
+    }
+
+    .adduser {
+      background-color: #ecf5ff;
+      text-align: center;
+      text-align: center;
+      padding-left: 20%;
+      padding-right: 20%;
+      padding-top: 5%;
+      padding-bottom: 5%;
+    }
+      
+    .testbtn {
+
+      font-size: 1.8rem;
+      padding: 1rem 0;
+      text-align: center;
+      border: 0.1rem solid #56a5eb;
+      margin-bottom: 1rem;
+      text-decoration: none;
+      color: #56a5eb;
+      background-color: white;
+      
+      display: inline-block;
+  
+      width: 150px
+  
+    }
+    
+    .testbtn:hover {
+      cursor: pointer;
+      text-decoration: none;
+      color: #56a5eb;
+      box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+      transform: translateY(-0.1rem);
+      transition: transform 150ms;
+      
+    }
+    
+    .testbtn[disabled]:hover {
+      cursor: not-allowed;
+      box-shadow: none;
+      transform: none;
+    }
