@@ -15,30 +15,47 @@ We wanted to just make it look simple as to not overwhelm the newer students so 
 #Features
 
 - 1. Quiz 
+
+
 The most important part of this application is definitely the quiz section. We did not hardcode the quiz questions since we generally don't trust ourselves with our general knowledge. As such, we found an alternative to use Open Trivia API which generates a genuine general knowledge question and provides the answer as well.
 
 - 2. Rewards
+
+
 Once the user has completed the quiz a few times, we count the score together and the user can then redeem rewards on the application itself.
 
 - 3. Highscore saving
+
+
 We can track the highest scoring users on the quiz by saving it onto a list.
 
 - 3. Name Tracking
+
+
 We've used RestDB to have a backend database so when a user saves his own highscores, we can easily find the name and add his score to his concurrent one.
 
 Technologies used:
+
 - 1. RestDB
+
+
 https://restdb.io/
 RestDB is a backend database that we've used to save our data on.
 
 - 2. Javascript
+
+
 https://developer.mozilla.org/en-US/docs/Web/JavaScript
 Javascript is mainly used here for interactive purposes on the application. For instance, I used javascript to make the bullet point on the navigation bar for the mobile view.
 
 - 3. CSS
+
+
 https://developer.mozilla.org/en-US/docs/Web/CSS
 CSS works hand in hand with HTML to make the design more user-friendly and digestable so as to not confuse or overwhelm the user.
 
 - 4. HTML
+
+
 https://developer.mozilla.org/en-US/docs/Web/HTML
 HTML is the bread and butter of web programming so it is definitely used here.
