@@ -123,6 +123,6 @@ Photos and images are used from google with the lottie animations coming from he
 
 Throughout this web application development, we mainly used youtube to search up references and inspirations for our project.
 
-Lottie: https://www.youtube.com/watch?v=xYQ-HdVfBSA
-General Quiz Guide: https://www.youtube.com/watch?v=riDzcEQbX6k
-RestDB: https://replit.com/@zensgaminghd/wk13-simple-restdb#script.js (We referenced week 13's work)
+- Lottie: https://www.youtube.com/watch?v=xYQ-HdVfBSA
+- General Quiz Guide: https://www.youtube.com/watch?v=riDzcEQbX6k
+- RestDB: https://replit.com/@zensgaminghd/wk13-simple-restdb#script.js (We referenced week 13's work)
