@@ -17,7 +17,7 @@ $(function () {
     "GENERIC_ERROR": "A server error occured, please reload page"
   }
 
-  var successMessage = "Points added successfully!";
+  var successMessage = "Users added successfully!";
 
   $.datetimepicker.setLocale('en');
 
